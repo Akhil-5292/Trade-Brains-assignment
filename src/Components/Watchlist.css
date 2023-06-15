@@ -1,0 +1,32 @@
+.watchlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stock-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stock-item button {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+  }
+  
+  .stock-item button:hover {
+    background-color: #cc0000;
+  }
+  
+  .stock-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .stock-price {
+    margin-right: 10px;
+  }
+  

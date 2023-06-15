@@ -1,0 +1,29 @@
+.company-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .company-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .company-item button {
+    margin-left: auto;
+    padding: 5px 10px;
+  }
+  
+  .company-item button:hover {
+    background-color: #ccc;
+  }
+  
+  .company-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .company-price {
+    margin-right: 10px;
+  }
+  
